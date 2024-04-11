@@ -18,7 +18,7 @@
 
  ![Cookie Sales](https://github.com/Yettybenny/Cookie-Sales/assets/145848340/423b806e-b84b-4a8c-ad42-73628b853585)
 
-This project is all about analyzing monthly cookie sales data to gain valuable insights into our performance. We're aiming to explore different aspects of sales data, not just total revenue but also quarterly sales figures. Furthermore, we want to understand which products are bringing in the most profit, giving us a full picture of our sales performance.
+This project is all about analyzing monthly and quarterly cookie sales data to gain valuable insights into our performance. We're aiming to explore different aspects of sales data, not just total revenue but also quarterly sales figures. Furthermore, we want to understand which products are bringing in the most profit, giving us a full picture of our sales performance.
 
 
 ## DATA SOURCES
