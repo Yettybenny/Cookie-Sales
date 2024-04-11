@@ -1,6 +1,10 @@
 # COOKIE-SALES
 
+![cookie](https://github.com/Yettybenny/Cookie-Sales/assets/145848340/d712adab-d9cf-4428-a2d7-5fff577e5393)
+
+
 ### Table of Contents
+---
 
 -[Project Overview](#project-overview)
 
@@ -10,21 +14,27 @@
 
 
 #  PROJECT OVERVIEW
+---
+
+ ![Cookie Sales](https://github.com/Yettybenny/Cookie-Sales/assets/145848340/423b806e-b84b-4a8c-ad42-73628b853585)
 
 This project is all about analyzing monthly cookie sales data to gain valuable insights into our performance. We're aiming to explore different aspects of sales data, not just total revenue but also quarterly sales figures. Furthermore, we want to understand which products are bringing in the most profit, giving us a full picture of our sales performance.
 
 
 ## DATA SOURCES
+---
 
 The main dataset utilized for this analysis is the "cookie sales.csv" file, which provides comprehensive details about each sale conducted on a monthly basis.
 
 
 ### TOOLS
+---
 
 - Power bi
 - D.A.X
 
 ### POWER BI
+---
 
 - Data Transformation
 - Data Modeling
@@ -33,16 +43,17 @@ The main dataset utilized for this analysis is the "cookie sales.csv" file, whic
 
 
 ## D.A.X
-
+---
 This calculated field computes the total revenue generated from cookie sales. It sums up the product of the unit price and quantity sold for each cookie transaction.
 
 - DAX Formula:
+  ---
 
 - **Total Revenue = SUMX('Sales', 'Sales'[Unit Price] * 'Sales'[Quantity])**
 
 
 ### EXPLORATORY DATA ANALYSIS
-
+---
 During the EDA process, we investigated the sales data to address critical inquiries, including:
 
 - Determining the profit per product in each region.
@@ -52,6 +63,7 @@ During the EDA process, we investigated the sales data to address critical inqui
 
 
 ### RESULT/FINDINGS
+---
 
 - Profit margins vary by product and region.
 - Sales and profits fluctuate monthly.
@@ -60,7 +72,7 @@ During the EDA process, we investigated the sales data to address critical inqui
 
 
 ## RECOMMENDATIONS
-
+---
 1. Use sales data for better forecasting and inventory management.
 2. Promote top-selling products and optimize underperforming ones.
 3. Review financial metrics quarterly for performance insights.
@@ -69,6 +81,7 @@ During the EDA process, we investigated the sales data to address critical inqui
 
 
 ## LIMITATIONS
+---
 
    Seasonal variations may skew sales data, affecting year-round insights.
 
